@@ -34,6 +34,18 @@ h2{
     text-align: center;
 }
 
+ul#livrosAntigoTestamento{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+ul#livrosNovoTestamento{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
 main{
     width: 800px;
     margin: 0px auto;
