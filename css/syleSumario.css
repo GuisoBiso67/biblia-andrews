@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+:root{
+    --fonteTitulo: 'Oswald', sans-serif;
+    --fontePadrao: 'Ubuntu', sans-serif;
+
+    --cor01: #E1C46C; /* Pagina Principal */
+    --cor02: #DBAF28; /* Novo Testamento */
+    --cor03: #5C502C; /* Velho Testamento */
+    --cor04: #08125C;
+    --cor05: white;
+    --cor06: black;
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor03);
+}
+
+h1{
+    text-align: center;
+    font-family: var(--fonteTitulo);
+}
+
+h2{
+    text-align: center;
+    font-family: var(--fonteTitulo);
+}
+
+main{
+    max-width: 800px;
+    min-width: 300px;
+    margin: 10px auto;
+    border: 1px solid var(--cor06);
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+p{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: var(--cor05);
+    font-family: var(--fontePadrao);
+}
+
+a{
+    color: var(--cor05);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div{
+    columns: 3;
+}
