@@ -96,12 +96,13 @@ main{
 
 main p{
     font-family: var(--fontePadrao);
-    margin: 1px 0px;
+    padding: 5px;
 }
 
 main p > a{
     color: var(--cor06);
     text-decoration: none;
+    border-radius: 3px;
 }
 
 main p > a:hover{
