@@ -13,6 +13,7 @@
     --cor04: #08125C;
     --cor05: white;
     --cor06: black;
+    --cor07: #08125cc4;
 }
 
 *{
@@ -30,17 +31,70 @@ main{
     max-width: 800px;
     min-width: 300px;
     background-color: var(--cor03);
-    margin: 0px auto;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 1px solid var(--cor06);
+}
+
+div#textoMain{
+    max-width: 750px;
+    min-width: 300px;
+    margin: 0px auto 10px auto;
 }
 
 h1{
     font-family: var(--fonteTitulo);
-}
-
-h2{
-    font-family: var(--fonteTitulo);
+    margin: 10px auto;
+    max-width: 500px;
+    min-width: 300px;
+    text-align: center;
+    background-color: var(--cor07);
+    border: 1px solid var(--cor06);
+    border-radius: 8px;
 }
 
 p{
     font-family: var(--fontePadrao);
+    text-indent: 20px;
+}
+
+p#tituloCapitulo{
+    font-family: var(--fonteTitulo);
+    font-size: 20px;
+    font-weight: 500;
+    text-indent: 40px;
+    padding: 10px 0px;
+}
+
+sub{
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+footer{
+    margin: 0px auto;
+    width: 320px;
+}
+
+div.linksFooter{
+    margin: 50px auto;
+    display: inline-block;
+    background-color: var(--cor04);
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid var(--cor06);
+}
+
+footer > a > div > p.buttonFooter{
+    color: var(--cor05);
+    text-indent: 0px;
+    font-size: large;
+    font-weight: bold;
+    vertical-align: -15px;
+    text-decoration: none;
+    font-family: var(--fonteTitulo);
+    display: inline-block;
 }
