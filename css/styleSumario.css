@@ -21,6 +21,10 @@
 
 body{
     background-color: var(--cor03);
+    background-image: url('../imagens/imagemDeFundoVelhoTestamentoOK.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 h1{
@@ -34,6 +38,7 @@ h2{
 }
 
 main{
+    background-color: var(--cor03);
     max-width: 800px;
     min-width: 300px;
     margin: 10px auto;
