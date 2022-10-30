@@ -13,7 +13,7 @@
     --cor04: #08125C;
     --cor05: white;
     --cor06: black;
-    --cor07: #08125cc4;
+    --cor07: #08125cd7;
 }
 
 *{
@@ -28,22 +28,31 @@ body{
     height: 100vh;
 }
 
+header{
+    background-color: var(--cor07);
+    max-width: 500px;
+    min-width: 300px;
+    margin: 5px auto;
+    border-radius: 8px;
+    border: 1px solid var(--cor06);
+}
+
 h1{
     text-align: center;
     font-family: var(--fonteTitulo);
-    background-color: var(--cor07);
     margin: 0px auto;
     max-width: 500px;
     min-width: 300px;
+    color: var(--cor05);
 }
 
 h2{
     text-align: center;
     font-family: var(--fonteTitulo);
-    background-color: var(--cor07);
     margin: 0px auto;
     max-width: 500px;
     min-width: 300px;
+    color: var(--cor05);
 }
 
 main{
@@ -99,7 +108,7 @@ footer > a > div > p#linkBackButton{
     width: 100px;
     font-size: large;
     font-weight: bold;
-    vertical-align: -15px;
+    vertical-align: -17px;
     text-decoration: none;
     font-family: var(--fonteTitulo);
     display: inline-block;
